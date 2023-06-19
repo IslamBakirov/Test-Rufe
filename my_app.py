@@ -28,7 +28,7 @@ class MainWin(QWidget):
                 self.instruction = QLabel(txt_instruction)
 
                 self.layout = QVBoxLayout()
-                self.layout.addWidget(self.hello_text< alignment = Qt.AlignCenter)
+                self.layout.addWidget(self.hello_text, alignment = Qt.AlignCenter)
                 self.layout.addWidget(self.instruction, alignment = Qt.AlignCenter)
                 self.layout.addWidget(self.btn_next, alignment = Qt.AlignCenter)
                 self.setLayout(self.layout)
